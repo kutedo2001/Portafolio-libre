@@ -1,0 +1,36 @@
+div{
+    width:300px;
+    height:16px;
+    border:1px solid #000000;
+    margin:1px;
+}
+
+/*negro*/
+.negro-safeColor{background-color:black;}
+.negro-rgb{background-color:white;}
+.negro-rgba{background-color:white;}
+.negro-hex{background-color:white;}
+
+/*gris*/
+.gris-safeColor{background-color:grey;}
+.gris-rgb{background-color:white;}
+.gris-rgba{background-color:white;}
+.gris-hex{background-color:white;}
+
+/*rojo*/
+.rojo-safeColor{background-color:red;}
+.rojo-rgb{background-color:white;}
+.rojo-rgba{background-color:white;}
+.rojo-hex{background-color:white;}
+
+/* rgba */
+ .rosa-1{background-color:rgba(255,20,147,);}
+.rosa-2{background-color:rgba(255,20,147,);}
+.rosa-3{background-color:rgba(255,20,147,);}
+.rosa-4{background-color:rgba(255,20,147,);}
+.rosa-5{background-color:rgba(255,20,147,);}
+.rosa-6{background-color:rgba(255,20,147,);}		
+.rosa-7{background-color:rgba(255,20,147,);}
+.rosa-8{background-color:rgba(255,20,147,);}
+.rosa-9{background-color:rgba(255,20,147,);}
+.rosa-10{background-color:rgba(255,20,147,1);}

@@ -1,0 +1,53 @@
+.color-1 {
+    background-color: #ff0064;
+    border: 1px solid black;
+}
+
+.color-2 {
+    background-color: #ff0066ec;
+    border: 1px solid black;
+}
+
+.color-3 {
+    background-color: #ff0066d2;
+    border: 1px solid black;
+}
+
+.color-4 {
+    background-color: #ff0066b6;
+    border: 1px solid black;
+}
+
+.color-5 {
+    background-color: #ff0066af;
+    border: 1px solid black;
+}
+
+.color-6 {
+    background-color: #ff006a9e;
+    border: 1px solid black;
+}
+
+.color-7 {
+    background-color: #ff006682;
+    border: 1px solid black;
+}
+
+.color-8 {
+    background-color: #ff006651;
+    border: 1px solid black;
+}
+
+.color-9 {
+    background-color: #ff006638;
+    border: 1px solid black;
+}
+
+.color-10 {
+    background-color: #ff006620;
+    border: 1px solid black;
+}
+
+body {
+    text-align: center;
+}
