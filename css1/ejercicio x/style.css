@@ -1,0 +1,5 @@
+p#destacado{border:solid black 1px;border-collapse: collapse;}
+p.destacado{border: solid black 1px;border-collapse: collapse;}
+span#idl{border: solid black 1px;border-collapse: collapse;}
+.destacado > #idl{border: solid black 1px;}
+body{max-width: 30%;}
