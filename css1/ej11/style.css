@@ -1,0 +1,19 @@
+.nada {
+    list-style-type: none;
+}
+
+.blanco {
+    list-style-type: circle;
+}
+
+.cuadrado {
+    list-style-type: square;
+}
+
+.romanos {
+    list-style-type: lower-roman;
+}
+
+.griego {
+    list-style-type: lower-greek;
+}
