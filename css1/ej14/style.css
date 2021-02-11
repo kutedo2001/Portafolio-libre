@@ -1,0 +1,8 @@
+body{background-color: black;}
+.top{height: 33%;}
+.caja-1{background-color: crimson;float: left;width: 33%;}
+.caja-2{background-color: aquamarine;float: left;width: 66%;}
+.medio{height: 33%;}
+.caja1{background-color: blue;clear: both;float: left;width: 25%;}
+.caja2{background-color: blueviolet;float: left;width: 50%;}
+.caja3{background-color: cornflowerblue;float: left;width: 25%;}
