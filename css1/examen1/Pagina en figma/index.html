@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Untitled</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="no-js">
+
+	<div id="grid" class="grid">
+		<div class="col">
+			<div class="wrapper" style="width: 1440px; height: 1024px; background-color: #000000;">
+
+				<iframe title="1440x1024 Desktop - 1" width="1440" height="1024"
+					src="1440x1024-desktop-1_113717695/index.html"></iframe></div>
+		</div>
+		<div class="col">
+			<div class="wrapper" style="width: 1440px; height: 1024px; background-color: #000000;">
+
+				<iframe title="1440x1024 Desktop - 2" width="1440" height="1024"
+					src="1440x1024-desktop-2_271622102/index.html"></iframe></div>
+		</div>
+		<div class="col">
+			<div class="wrapper" style="width: 1440px; height: 1024px; background-color: #000000;">
+
+				<iframe title="1440x1024 Desktop - 3" width="1440" height="1024"
+					src="1440x1024-desktop-3_831448398/index.html"></iframe></div>
+		</div>
+		<div class="col">
+			<div class="wrapper" style="width: 1440px; height: 1024px; background-color: #000000;">
+
+				<iframe title="1440x1024 Desktop - 4" width="1440" height="1024"
+					src="1440x1024-desktop-4_579391123/index.html"></iframe></div>
+		</div>
+		<div class="col">
+			<div class="wrapper" style="width: 1440px; height: 240px; background-color: #000000;">
+
+				<iframe title="1440x240 Desktop - 5" width="1440" height="240"
+					src="1440x240-desktop-5_258065750/index.html"></iframe></div>
+		</div>
+	</div>
+	<style>
+		body {
+			background-color: #121212;
+			font-family: 'Helvetica', 'Arial', sans-serif;
+		}
+iframe{border: 0;}
+		.grid {
+			margin-left: 12%;
+		}
+	</style>
+
+	<script type="text/javascript">
+		document.body.className = "js";
+	</script>
+	<script type="text/javascript" src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script type="text/javascript">
+		if (window.Masonry) {
+			var elem = document.getElementById("grid");
+			var msnry = new Masonry(elem, {
+				itemSelector: ".col",
+				gutter: 20
+			});
+		}
+	</script>
+	<script type="text/javascript">
+		function resetAnimations() {
+			var frames = document.getElementsByTagName('iframe');
+			for (var i in frames) {
+				var frame = frames[i];
+				if (typeof frame === "object") {
+					var cloned = frame.cloneNode(true);
+					frame.parentNode.replaceChild(cloned, frame);
+				}
+			}
+		}
+	</script>
+
+</body>
+
+</html>
